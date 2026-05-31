@@ -13,6 +13,7 @@ function checkJob() {
     }
 
     loading.style.display = "block";
+    console.log(issuesHtml);
     result.innerHTML = "";
 
     setTimeout(() => {
@@ -123,4 +124,4 @@ function checkJob() {
 
     }, 1500);
 }
-console.log(issuesHtml);
+
