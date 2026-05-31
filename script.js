@@ -1,4 +1,4 @@
-function checkJob() {
+ function checkJob() {
 
     let jobText = document.getElementById("jobText").value.toLowerCase();
 
