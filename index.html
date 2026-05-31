@@ -1,40 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
+
+          <!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fake Job Detector</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Fake Job Detector</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="container">
+  <div class="container">
 
-        <h1>🛡️ Fake Job Detector</h1>
+    <h1>Fake Job Detector</h1>
 
-        <textarea
-            id="jobText"
-            placeholder="Paste the job description here..."
-        ></textarea>
+    <textarea id="jobText" placeholder="Paste job description here..."></textarea>
 
-        <button onclick="checkJob()">Analyze Job</button>
+    <button onclick="checkJob()">Analyze</button>
 
-        <div id="loading" style="display:none;">
-            <p>🔍 Analyzing job post...</p>
-        </div>
-
-        <div class="score-box">
-            <div id="scoreText">0%</div>
-        </div>
-
-        <div id="result">
-            <p>Paste a job description and click Analyze.</p>
-        </div>
-
+    <div id="loading" style="display:none;">
+      <p>Analyzing job post...</p>
     </div>
 
-    <script src="script.js"></script>
+    <div id="result"></div>
+
+    <div class="score-box">
+      <div id="scoreText">0%</div>
+    </div>
+
+  </div> <!-- ✅ THIS WAS MISSING -->
+
+  <script src="script.js"></script>
 
 </body>
 </html>
