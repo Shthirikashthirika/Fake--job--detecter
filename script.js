@@ -123,3 +123,4 @@ function checkJob() {
 
     }, 1500);
 }
+console.log(issuesHtml);
