@@ -174,3 +174,11 @@ button:hover{
     margin-top: 15px;
     margin-bottom: 8px;
 }
+#result{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.4);
+    border: 1px solid white;
+    color: white;
+}
