@@ -1,0 +1,176 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background */
+body{
+    background-image: url("bkimg.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Container */
+.container{
+    width: 450px;
+    padding: 30px;
+
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.25);
+
+    border-radius: 20px;
+
+    backdrop-filter: blur(14px);
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+
+    text-align: center;
+    color: white;
+}
+
+/* Title */
+h1{
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Textarea */
+textarea{
+    width: 100%;
+    height: 150px;
+
+    padding: 15px;
+
+    border: none;
+    border-radius: 12px;
+
+    resize: none;
+    outline: none;
+
+    font-size: 16px;
+
+    margin-bottom: 15px;
+}
+
+/* Button */
+button{
+    padding: 12px 25px;
+
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    background: linear-gradient(90deg,#00c6ff,#0072ff);
+    color: white;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+/* Loading */
+#loading{
+    margin-top: 15px;
+    color: white;
+}
+
+/* Result Box */
+#result{
+    margin-top: 20px;
+    padding: 20px;
+
+    border-radius: 20px;
+
+    background: rgba(255,255,255,0.12);
+
+    border: 1px solid rgba(255,255,255,0.25);
+
+    color: white;
+}
+
+/* Risk Badge */
+.risk-badge{
+    display: inline-block;
+
+    padding: 10px 20px;
+
+    border-radius: 25px;
+
+    color: white;
+    font-weight: bold;
+
+    margin-bottom: 15px;
+}
+
+.low-risk{
+    background: #22c55e;
+}
+
+.medium-risk{
+    background: #f59e0b;
+}
+
+.high-risk{
+    background: #ef4444;
+}
+
+/* List */
+#result ul{
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+#result li{
+    margin-bottom: 6px;
+}
+
+/* Risk Circle */
+.score-box{
+    width: 140px;
+    height: 140px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 25px auto;
+
+    background: #111827;
+
+    border: 4px solid #22c55e;
+
+    box-shadow: 0 0 20px #22c55e;
+
+    color: #22c55e;
+
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Headings inside result */
+#result h3{
+    margin: 10px 0;
+}
+
+#result h4{
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
